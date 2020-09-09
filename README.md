@@ -3,12 +3,26 @@
 ### Course Information
 [Syllabus](https://cs50.harvard.edu/x/2020/syllabus/)
 
+### CS50 Training Wheels
+During the course, cs50 developed custom libraries to aid in some of the more technical backend workings of C and Python.
+
+```c
+#include <cs50.h>
+```
+
+```python
+import cs50
+```
+
+To read more about these custom libraries, please visit the cs50 github reposititory for [C](https://github.com/cs50/libcs50) and [Python](https://github.com/cs50/python-cs50)
+
+If desired, one can run these programs using the [cs50 ide](https://ide.cs50.io) without locally installing the libaries
+
 ### Pset1 (C)
 #### Requirements and Information
 * [Hello](https://cs50.harvard.edu/x/2020/psets/1/hello/)
 * [Mario](https://cs50.harvard.edu/x/2020/psets/1/mario/less/)
 * [Cash](https://cs50.harvard.edu/x/2020/psets/1/cash/)
-
 
 ### Pset2 (Arrays)
 #### Requirements and Information

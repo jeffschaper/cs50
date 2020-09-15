@@ -34,7 +34,8 @@ def openFiles():
 def getCounts(strs):
 
     # Declaring new array
-    array = []
+    tempArray = []
+    compArray = []
 
     # Open txt
     txtFile = open(argv[2], 'r')
@@ -57,15 +58,26 @@ def getCounts(strs):
             nextPosition = foundPosition + len(Phrase1)
             foundPhrase = txt[foundPosition:nextPosition]
             
-            if(foundPhrase == Phrase1):
+            if(foundPosition == -1):
+                done = True
+                mx = max(tempArray)
+                compArray.append(mx)
+                tempArray.clear()
+            # Problem starts here
+            # It's double counting and not looping once a match is found
+            elif(foundPhrase == Phrase1):
+                # counter += 1
+                # Once a match is found, loop until no match is found
                 if(txt[foundPosition + len(Phrase1):nextPosition + len(Phrase1)] == Phrase1):
                     counter += 1
-                # End of repetition
+                # Problem ends here
                 elif(txt[foundPosition + len(Phrase1):nextPosition + len(Phrase1)] != Phrase1):
-                    array.append(counter)
-            
+                    counter += 1
+                    tempArray.append(counter)
+                    counter = 0
+                
 
-    return array
+    return compArray
 
 
 def IsMatchFound(counts):

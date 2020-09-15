@@ -60,6 +60,10 @@ def getCounts(strs):
             
             if(foundPosition == -1):
                 done = True
+                if not tempArray:
+                    tempArray.append(0)
+                else:
+                    tempArray
                 mx = max(tempArray)
                 compArray.append(mx)
                 tempArray.clear()
@@ -74,8 +78,7 @@ def getCounts(strs):
                 elif(txt[foundPosition + len(Phrase1):nextPosition + len(Phrase1)] != Phrase1):
                     counter += 1
                     tempArray.append(counter)
-                    counter = 0
-                
+                    counter = 0                
 
     return compArray
 
@@ -102,7 +105,7 @@ def IsMatchFound(counts):
                 if (int(j[y]) == counts[z]):
                     z += 1
                     successCount += 1
-                    if (successCount > 1):
+                    if (successCount == len(j)-1):
                         print(j[0])
                         return True
         print("no match")

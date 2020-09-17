@@ -50,3 +50,8 @@ If desired, one can run these programs using the [cs50 ide](https://ide.cs50.io)
 * [Cash](https://cs50.harvard.edu/x/2020/psets/6/cash/)
 * [Readability](https://cs50.harvard.edu/x/2020/psets/6/readability/)
 * [DNA](https://cs50.harvard.edu/x/2020/psets/6/dna/)
+
+### Pset7 (SQL)
+#### Requirements and Information
+* [Movies](https://cs50.harvard.edu/x/2020/psets/7/movies/#:~:text=cs50/problems/2020/x/movies)
+* [Houses](https://cs50.harvard.edu/x/2020/psets/7/houses/#:~:text=https://cdn.cs50.net/2019/fall/psets/7/houses/houses.zip)

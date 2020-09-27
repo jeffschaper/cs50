@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-top: 75px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.ro::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.homeImage{
+    padding-left: 100px;
+}

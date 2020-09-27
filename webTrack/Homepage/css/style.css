@@ -1,0 +1,29 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*nav bar*/
+nav{
+    overflow: hidden;
+}
+
+/*navigation links*/
+nav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/*navigation hover effects*/
+nav a:hover{
+    color: #0033ff;
+}
+
+/*navigation active selection*/
+nav a.active{
+    color: #0033ff;
+}

@@ -1,0 +1,59 @@
+body{
+    font-size: x-large;
+}
+
+/*centers text*/
+h1{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#form{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#firstName{
+    padding-right: 50px;
+}
+
+#lastName{
+    padding-right: 50px;
+}
+
+.email{
+    margin-left: 35px;
+}
+
+#email{
+    padding-right: 50px;
+}
+
+.phone{
+    margin-left: 32px;
+}
+
+#phone{
+    padding-right: 50px;
+}
+
+#DOB{
+    padding-right: 60px;
+}
+
+#gender{
+    padding-right: 145px;
+}
+
+.Button{
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+/*locks footer at bottom of screen*/
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Title of page-->
+        <title>
+            Welcome!
+        </title>
+    <!--css links-->
+    <link rel="stylesheet" href="/cs50/webTrack/Homepage/css/style.css">
+    <link rel="stylesheet" href="/cs50/webTrack/Homepage/css/search.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--javascript links-->
+    <script src=/cs50/webTrack/Homepage/JavaScript/app.js></script>
+    </head>
+    <body>
+        <!--nav bar links-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a class="active" href="search.html">Search</a>
+        </nav>
+        <!--heading and searchbox-->
+        <section>
+            <!--heading-->
+            <h1 class="title">Find your dream home!</h1>
+            <!--searchbox form directed to google-->
+            <form class="searchBox" action="https://www.google.com/search" method="get" target="blank_">
+                <!--searchbox-->
+                <input class="box" name="q" type="text" placeholder="Enter Address">
+                <!--button-->
+                <input class="button" type="submit" value="Find">
+            </form>
+            <!--image-->
+            <img class="sideImage" src="/cs50/webTrack/Homepage/images/MichaelDwightMakeDeal.jpg" alt="MichaelDwightMakeDeal">
+        </section>
+    </body>
+</html>

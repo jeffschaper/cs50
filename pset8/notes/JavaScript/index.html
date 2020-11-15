@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Hello!
+        </title>
+        <script>
+            function greet(){
+                // # means look for an id of name.  Specifically the value of the name id and assign to name variable
+                let name = document.querySelector('#name').value;
+                // if name is blank, change name to world
+                if (name === ''){
+                    name = 'world';
+                }
+                //alert('Hello, ' + name + '!');
+                // change the result id to innerhtml hello plus name variable plus !
+                document.querySelector('#result').innerHTML = 'Hello, ' + name + '!';
+            }
+        </script>
+    </head>
+    <body>
+        <!--run greet function onsubmit-->
+        <form onsubmit="greet(); return false;">
+            <input type="text" id="name">
+            <input type="submit">
+        </form>
+        <div id="result">
+            Hello!
+        </div>
+    </body>
+</html>

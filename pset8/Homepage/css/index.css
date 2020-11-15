@@ -1,0 +1,13 @@
+/*centers heading*/
+h1{
+    text-align: center;
+}
+
+/*centers image on homepage*/
+.column{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding-top: 200px;
+}

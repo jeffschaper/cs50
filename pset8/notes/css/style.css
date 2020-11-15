@@ -1,0 +1,10 @@
+/*. indicates class name in html file*/
+
+.title{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.green{
+    color:green;
+}

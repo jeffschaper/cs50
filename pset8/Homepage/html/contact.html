@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Title of webpage-->
+        <title>
+            Welcome!
+        </title>
+    <!--CSS-->
+    <link rel="stylesheet" href="/cs50/webTrack/Homepage/css/style.css">
+    <link rel="stylesheet" href="/cs50/webTrack/Homepage/css/contact.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--javascript-->
+    <script src="/cs50/webTrack/Homepage/JavaScript/contact.js"></script>
+    </head>
+    <body>
+        <!--Navigation selection-->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+            <a href="search.html">Search</a>
+        </nav>
+        <!--Main section-->
+        <section>
+            <h1>Contact us!</h1>
+            <!--Main form inputs-->
+            <div id="form">
+                <!--First name-->
+                <div>
+                    <label class="firstName">First Name</label>
+                    <input id="firstName" class="input" type="text" name="firstName">
+                </div>
+                <!--Last name-->
+                <div>
+                    <label class="lastName">Last Name</label>
+                    <input id="lastName" type="text" name="lastName">
+                </div>
+                <!--Email-->
+                <div>
+                    <label class="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <!--Phone-->
+                <div>
+                    <label class="phone">Phone</label>
+                    <input id="phone" type="tel" name="phone">
+                </div>
+                <!--Date of birth-->
+                <div>
+                    <label class="DOB">Birthdate</label>
+                    <input id="DOB" type="date" name="birthdate">
+                </div>
+                <!--Gender-->
+                <div>
+                    <label class="gender">Gender</label>
+                    <!--Gender drop down selection-->
+                    <select id="gender" name="gender">
+                        <option id="choose" value="choose">Choose</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <!--Submit button-->
+                <div class="Button">
+                    <input class="btn-primary" onClick="validateForm(), congratulations()" type="submit" name="submit" value="connect">
+                </div>
+            </div>
+        </section>
+        <!--This footer is to demonstrate a counter using javascript-->
+        <footer>
+            <h6 class="counter">Number of Submissions:</h6>
+            <div id="result">
+                0
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,9 +1,0 @@
-CREATE TABLE 'transacitons' (
-    'id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
-    'userId' INTEGER KEY NOT NULL,
-    'symbol' TEXT NOT NULL, 
-    'shares' INTEGER NOT NULL, 
-    'price' NUMERIC NOT NULL, 
-    'action' TEXT NOT NULL, 
-    'time' NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP
- );

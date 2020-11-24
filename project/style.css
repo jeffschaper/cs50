@@ -1,0 +1,28 @@
+body{
+    background-color: #ffffff;
+}
+
+.container{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container h3{
+    width: auto;
+}
+
+.verse {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subContainer{
+    width:75%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.reference{
+    float:right;
+}

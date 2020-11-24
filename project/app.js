@@ -7,7 +7,7 @@ async function getText(){
     
     let passageParam = randomPassage();
 
-    let params = '&include-passage-references=false&include-verse-numbers=false';
+    let params = '&include-passage-references=false';
 
     //API credit
     let Url = 'https://api.esv.org/v3/passage/text?q=' + passageParam + params;

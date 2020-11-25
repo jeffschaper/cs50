@@ -7,10 +7,31 @@ async function getText(){
     
     let passageParam = randomPassage();
 
-    let params = '&include-passage-references=false';
+    let params = {
+        'include-passage-references': 'false',
+        'include-verse-numbers': 'false',
+        'include-first-verse-numbers': 'false',
+        'include-footnotes': 'false',
+        'include-footnote-body': 'false',
+        'include-headings': 'false',
+        'include-short-copyright': 'false',
+        'include-copyright': 'false',
+        'include-passage-horizontal-lines': 'false',
+        'include-heading-horizontal-lines': 'false',
+        //'horizontal-line-length': 55,
+        'include-selahs': 'true',
+        'indent-using': 'space', //tab
+        'indent-paragraphs': 2,
+        'indent-poetry': 'true',
+        'indent-poetry-lines': 4,
+        'indent-declares': 40,
+        'indent-psalm-doxology': 30,
+        'line-length': 0
+
+    }
 
     //API credit
-    let Url = 'https://api.esv.org/v3/passage/text?q=' + passageParam + params;
+    let Url = 'https://api.esv.org/v3/passage/text?q=' + passageParam + '&' + (new URLSearchParams(params)).toString();
     console.log(Url);
     //Await - Used with Async
     //Suspend function exeeuction until the Async promise settles and returns its result

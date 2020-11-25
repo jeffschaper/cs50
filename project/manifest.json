@@ -1,17 +1,14 @@
 {
-    "mainifest_version": 2,
-    
+    "manifest_version": 2,
     "name": "Daily Bible Encouragement",
     "description": "This extention will provide people with daily encouragement from God's Word",
     "version": "1.0",
-    "icons": {
-        "128": "icon_128.png"
-    },
-
-    "browser_action": {
-        "default_icon": "icon.png"
-    },
-
+    //"icons": {
+    //    "128": "icon_128.png"
+    //},
+    //"browser_action": {
+    //    "default_icon": "icon.png"
+    //},
     "chrome_url_overrides":{
         "newtab": "index.html"
     }

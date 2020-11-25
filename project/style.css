@@ -1,28 +1,39 @@
 body{
-    background-color: #ffffff;
+    background-color: #35281E;
+    color: #ffffff;
 }
 
+/*Position of container should always be in the center of the screen*/
 .container{
     height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.container h3{
-    width: auto;
-}
-
-.verse {
-    width: 50%;
-    margin: 0 auto;
+    padding-top: 300px;
+    margin: auto;
+    font-size: 20pt;
 }
 
 .subContainer{
     width:75%;
-    width: 50%;
-    margin: 0 auto;
+    margin: auto;
+}
+
+.verse{
+    width: 75%;
+    margin: auto;
+}
+
+#verse{
+    margin: auto;
+    text-align: center;
 }
 
 .reference{
     float:right;
+    margin: auto;
+    padding-right: 150px;
+}
+
+/*position of footer should always be at the bottom of the screen*/
+.footer{
+    padding-top: 425px;
+    position: relative;
 }

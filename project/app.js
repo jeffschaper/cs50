@@ -73,14 +73,26 @@ function randomPassage(){
         31
     ];
     
-    let min = 0;
-    //Get max number of chapters
+    let min = 0
+    //console.log(`min ${min}`);
+
+    //Get max number of chapters (31)
     let max = (chapterLengths.length);
+    //console.log(`maximum ${max}`);
+    
     //Get random chapter
-    let chapter = Math.floor(Math.random() * max);
-    //console.log(chapter);
+    //max is exclusive and the min is inclusive
+    let chapter = Math.floor(Math.random() * (max - min) + min);
+    //console.log(`chapter ${chapter}`);
+    
+    //index range between 0 and 30
+    let verseMax = chapterLengths[chapter];
+    //console.log(`verseMax ${verseMax}`);
+    
     //Get random verse
-    let verse = Math.floor(Math.random() * chapterLengths[chapter]);
-    //console.log(verse);
-    return `Proverbs ${chapter}:${verse}`;
+    let verse = Math.floor(Math.random() * (verseMax - min + 1) + min);
+    //console.log(`verse ${verse}`);
+    
+    //chapter and verse cannot be 0
+    return `Proverbs ${chapter + 1}:${verse + 1}`;
 }

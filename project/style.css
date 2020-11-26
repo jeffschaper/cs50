@@ -41,10 +41,6 @@ body{
     margin-bottom: 0px;
 }
 
-.footer p{
-    padding: 0px;
-}
-
 .flex-container{
     display: flex;
 }

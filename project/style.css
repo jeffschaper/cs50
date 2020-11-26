@@ -22,18 +22,21 @@ body{
 }
 
 #verse{
-    margin: auto;
     text-align: center;
+    margin: auto;
 }
 
 .reference{
-    float:right;
-    margin: auto;
+    float: right;
     padding-right: 150px;
 }
 
 /*position of footer should always be at the bottom of the screen*/
 .footer{
-    padding-top: 425px;
-    position: relative;
+    font-size: 10pt;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }

@@ -8,7 +8,7 @@ body{
     height: 100%;
     padding-top: 300px;
     margin: auto;
-    font-size: 20pt;
+    font-size: 18pt;
 }
 
 .subContainer{
@@ -33,10 +33,33 @@ body{
 
 /*position of footer should always be at the bottom of the screen*/
 .footer{
-    font-size: 10pt;
+    font-size: 8pt;
     position: fixed;
     bottom: 0px;
-    left: 0px;
+    left: 5px;
     right: 0px;
     margin-bottom: 0px;
+}
+
+.footer p{
+    padding: 0px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex{
+    opacity: 1;
+    padding-left: 10px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.flex:hover{
+    opacity: 0.4;
+}
+
+.flex .fa{
+    font-size: 14px;
+    color: #ffffff;
 }

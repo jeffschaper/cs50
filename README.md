@@ -61,3 +61,8 @@ If desired, one can run these programs using the [cs50 ide](https://ide.cs50.io)
 * [Homepage Instructions](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
 * [Finance Instructions](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 * [Walkthrough](https://cs50.harvard.edu/x/2020/tracks/web/)
+
+### Project (Web Track)
+#### Requirements and Informaiton
+* [Project Requirements](https://cs50.harvard.edu/x/2020/project/)
+* See README.md in [Project](https://github.com/jeffschaper/cs50/tree/master/project) directory for more information
